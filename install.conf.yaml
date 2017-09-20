@@ -1,0 +1,14 @@
+- clean: ['~']
+- defaults:
+    link:
+        create: true
+        relink: true
+- link:
+  ~/.dotfiles: ''
+  ~/.bashrc: bashrc
+  ~/.bash: bash/
+  ~/.gitconfig: gitconfig
+
+
+- shell:
+  - [git submodule update --init --recursive, Updating submodules]
