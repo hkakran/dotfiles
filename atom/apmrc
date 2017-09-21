@@ -1,0 +1,4 @@
+# TODO move this dotfiles-local into mac specific config  
+http_proxy=http://proxy.bloomberg.com:77
+https_proxy=http://proxy.bloomberg.com:77
+strict-ssl = false

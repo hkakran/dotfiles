@@ -8,6 +8,7 @@
     ~/.bashrc: bashrc
     ~/.bash: bash/
     ~/.gitconfig: gitconfig
+    ~/.atom/.apmrc: atom/apmrc
 
 
 - shell:
