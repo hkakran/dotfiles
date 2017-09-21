@@ -11,7 +11,7 @@
     ~/.atom/.apmrc: atom/apmrc
     ~/.vimrc: vimrc
     ~/.vim: vim/
-    ~/.ssh/config: ssh/config
+
 - shell:
     - [git submodule update --init --recursive, Updating submodules]
     - command: vim +PlugUpdate +PlugUpgrade +qall
