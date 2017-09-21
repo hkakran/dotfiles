@@ -16,6 +16,7 @@ let g:screen_size_restore_pos = 1
 ""                            Editing and Moving
 "" ============================================================================
 syntax on
+set mouse=a
 set autoindent
 set cindent
 set backspace=indent,eol,start
