@@ -37,6 +37,7 @@ set history on 10000
 ##                                  Prompt
 ## ============================================================================
 
+# Command prompt
 ## TODO THIS SHOULD MOVE TO LOCAL
 MAC_GIT_CORE_PATH="/Library/Developer/CommandLineTools/usr/share/git-core"
 if type __git_ps1 &> /dev/null; then
@@ -50,7 +51,6 @@ elif [ -f $MAC_GIT_CORE_PATH/git-prompt.sh ]; then
 else
   export PS1='\[\033[33m\]\w\[\033[36m\]\[\033[0m\] :) '
 fi
-
 
 ## Run LOCAL settings
 [[ -f ~/.bash_local/settings_local.sh ]] && source ~/.bash_local/settings_local.sh

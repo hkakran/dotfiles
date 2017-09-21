@@ -9,6 +9,8 @@
     ~/.bash: bash/
     ~/.gitconfig: gitconfig
     ~/.atom/.apmrc: atom/apmrc
+    ~/.vimrc: vimrc
+    ~/.vim: vim/
 
 
 - shell:
