@@ -1,7 +1,7 @@
 # Put shell aliases here. Note try to put git aliases inside .gitconfig
 
-alias ll='ls -al'
-alias ls="ls -lh --color=always --group-directories-first"
+alias ll="ls -al"
+alias ls="ls -lh"
 alias grep="grep --color=always"
 alias pull="git pull origin master"
 alias c="clear"

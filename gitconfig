@@ -3,13 +3,13 @@
     la = "!git config -l | grep alias | cut -c 7-"
 
     # Nice, colorful graph visualization
-    lg = log --decorate --oneline --graph --branches --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold blue)(%ar) %C(bold yellow)%d%C(reset) %C(green)%s%C(reset) %C(d
-im green)- %an%C(reset)'
+    lg = log --decorate --oneline --graph --branches --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold blue)(%ar) %C(bold yellow)%d%C(reset) %C(green)%s%C(reset) %C(dim green)- %an%C(reset)'
     logdog = log --decorate --oneline --graph
 
     co = "checkout"
     doms = "diff origin/master -w --stat"
     stat = "status"
+    lb = "branch -l"
 [color]
     ui = true
     status = true
@@ -24,8 +24,6 @@ im green)- %an%C(reset)'
     keepBackup = false
 [merge]
     tool = fugitive
-[push]
-    default = simple
 [init]
     templatedir = ~/.git_template
 [grep]
