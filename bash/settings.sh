@@ -41,7 +41,6 @@ set history on 10000
 ## TODO THIS SHOULD MOVE TO LOCAL
 MAC_GIT_CORE_PATH="/Library/Developer/CommandLineTools/usr/share/git-core"
 if [ -f $MAC_GIT_CORE_PATH/git-prompt.sh ]; then
-    echo "Running git-prompt"
     source $MAC_GIT_CORE_PATH/git-prompt.sh
     source $MAC_GIT_CORE_PATH/git-completion.bash
     # export PS1='[\W] $(__git_ps1 "(%s)") :) '
