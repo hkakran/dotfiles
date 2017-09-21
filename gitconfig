@@ -28,3 +28,7 @@
     templatedir = ~/.git_template
 [grep]
     lineNumber = true
+
+# Allow local customizations
+[include]
+    path = ~/.gitconfig_local
