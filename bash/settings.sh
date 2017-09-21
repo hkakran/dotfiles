@@ -40,7 +40,7 @@ set history on 10000
 ## TODO THIS SHOULD MOVE TO LOCAL
 MAC_GIT_CORE_PATH="/Library/Developer/CommandLineTools/usr/share/git-core"
 if type __git_ps1 &> /dev/null; then
-  export PS1='\[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\] :) '
+  PS1='\[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\] :) '
 elif [ -f $MAC_GIT_CORE_PATH/git-prompt.sh ]; then
   echo "Running git-prompt"
   source $MAC_GIT_CORE_PATH/git-prompt.sh
