@@ -24,7 +24,7 @@ Plug 'tpope/vim-unimpaired'                                " Pairs of keyboard m
 Plug 'tpope/vim-vinegar'                                   " netrw improvement
 
 if g:platform == "Linux" || g:platform == "Darwin"
-    Plug 'SirVer/ultisnips'               " Text snippets
+    " Plug 'SirVer/ultisnips'               " Text snippets
 
     " This one is extremely powerful, but also somewhat slow on the shared dev
     " machines.  If you do decide to use it, take a look at
