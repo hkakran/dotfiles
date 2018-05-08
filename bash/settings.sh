@@ -38,13 +38,6 @@ set history on 10000
 ## ============================================================================
 
 # Command prompt
-## TODO THIS SHOULD MOVE TO LOCAL
-MAC_GIT_CORE_PATH="/Library/Developer/CommandLineTools/usr/share/git-core"
-if [ -f $MAC_GIT_CORE_PATH/git-prompt.sh ]; then
-    source $MAC_GIT_CORE_PATH/git-prompt.sh
-    source $MAC_GIT_CORE_PATH/git-completion.bash
-fi
-
 PS1='\[\033[33m\]\w\[\033[36m\] $(__git_ps1 "(%s)")\[\033[0m\] :) '
 
 ## Run LOCAL settings

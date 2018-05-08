@@ -5,6 +5,7 @@
         relink: true
 - link:
     ~/.dotfiles: ''
+    ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.bash: bash/
     ~/.gitconfig: gitconfig
