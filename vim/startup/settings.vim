@@ -29,9 +29,9 @@ set directory=""
 set ru
 
 " Fixing tabs
-set tabstop=4
+set tabstop=2
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 
 " Autosave before :make and other commands; autoreload when file mod
 set autowrite
