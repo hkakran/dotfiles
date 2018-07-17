@@ -5,13 +5,14 @@
         relink: true
 - link:
     ~/.dotfiles: ''
+    ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.bash: bash/
     ~/.gitconfig: gitconfig
-    ~/.atom/.apmrc: atom/apmrc
     ~/.vimrc: vimrc
     ~/.vim: vim/
-    ~/.ssh/config: ssh/config
+    ~/.tmux.conf: tmux.conf
+    ~/bin: bin/
 - shell:
     - [git submodule update --init --recursive, Updating submodules]
     - command: vim +PlugUpdate +PlugUpgrade +qall
