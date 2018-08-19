@@ -40,6 +40,8 @@ call plug#end()
 " clang-format
 let g:clang_format#detect_style_file = 1
 
+" "let g:clang_format#auto_format_on_insert_leave = 1
+
 " CtrlP
 let g:ctrlp_working_path_mode = 'ra'
 
