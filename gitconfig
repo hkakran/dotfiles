@@ -10,6 +10,7 @@
     doms = "diff origin/master -w --stat"
     stat = "status"
     lb = "branch -l"
+    update = "!f() { git pull upstream \"$1\" && git push origin \"$1\"; };f"
 [color]
     ui = true
     status = true
@@ -18,6 +19,7 @@
 [core]
     pager = less -R
     preloadindex = true
+	excludesfile = /home/hkakran/.gitignore
 [mergetool "fugitive"]
     cmd = vim -f -c \"Gvdiff\" \"$MERGED\"
 [mergetool]
