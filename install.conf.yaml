@@ -13,6 +13,7 @@
     ~/.vim: vim/
     ~/.tmux.conf: tmux.conf
     ~/bin: bin/
+    ~/.gitignore: gitignore
 - shell:
     - [git submodule update --init --recursive, Updating submodules]
     - command: vim +PlugUpdate +PlugUpgrade +qall
