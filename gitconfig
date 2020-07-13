@@ -34,3 +34,6 @@
 # Allow local customizations
 [include]
     path = ~/.gitconfig_local
+[user]
+	name = Himadri Kakran
+	email = himadrik05@gmail.com
