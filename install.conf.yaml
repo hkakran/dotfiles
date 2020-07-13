@@ -6,7 +6,7 @@
 - link:
     ~/.dotfiles: ''
     ~/.bash_profile: bash_profile
-    ~/.bashrc: bashrc
+    ~/.zshrc: zshrc
     ~/.bash: bash/
     ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc
