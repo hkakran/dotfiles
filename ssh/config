@@ -1,6 +1,0 @@
-Host bbgithub bbgithub.dev.bloomberg.com
-    HostName bbgithub.dev.bloomberg.com
-    User git
-    IdentityFile ~/.ssh/bbgithub
-    Ciphers aes128-ctr,aes192-ctr,aes256-ctr
-    ForwardX11 no
