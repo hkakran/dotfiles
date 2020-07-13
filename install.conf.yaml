@@ -9,8 +9,6 @@
     ~/.zshrc: zshrc
     ~/.bash: bash/
     ~/.gitconfig: gitconfig
-    ~/.vimrc: vimrc
-    ~/.vim: vim/
     ~/.tmux.conf: tmux.conf
     ~/bin: bin/
     ~/.gitignore: gitignore
