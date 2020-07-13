@@ -112,3 +112,8 @@ alias c="clear"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+
+## Run LOCAL aliases
+[[ -f ~/.bash/aliases.sh ]] && source ~/.bash/aliases.sh
+[[ -f ~/.bash/functions.sh ]] && source ~/.bash/functions.sh
+[[ -f ~/.bash/settings.sh ]] && source ~/.bash/settings.sh
